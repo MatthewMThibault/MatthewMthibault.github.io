@@ -2,6 +2,25 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-#mainNav {
+#mainNav .navbar-toggler {
+    background-color: #fff;
     font-family: 'Lato', sans-serif;
-}
+  }
+  
+  #mainNav .navbar-brand {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link {
+ 
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
